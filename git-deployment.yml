@@ -18,9 +18,8 @@ spec:
     spec:
       containers:
         - name: octopus-underwater-app
-          image: 720766170633.dkr.ecr.us-east-2.amazonaws.com/octopus-underwater-app:latest
+          image: 827274518702.dkr.ecr.us-west-2.amazonaws.com/octopus-underwater-repo:latest
           ports:
             - containerPort: 80
               protocol: TCP
           imagePullPolicy: Always
-
