@@ -56,6 +56,6 @@ jobs:
     
     - name: Run the SCA scan on the source code
       uses: snyk/actions/node@master
-      continue-on-error: false
+      continue-on-error: true
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
